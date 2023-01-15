@@ -1,0 +1,53 @@
+.footer {
+  margin-top: 100px;
+}
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 80px;
+  right: 110px;
+}
+
+.whatsap img {
+  width: 60px;
+  height: 60px;
+}
+
+.texto {
+  width: 100vw;
+  padding: 0px 150px;
+  height: 20vw;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.texto h1 {
+  font-size: 30px;
+  border-top: 1px solid #fff;
+  padding-top: 80px;
+}
+
+.texto p {
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+@media screen and(max-width:568px) {
+  footer {
+    width: 100%;
+  }
+  .texto {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and(max-width:568px) {
+  .whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 0px;
+    right: 0;
+  }
+}

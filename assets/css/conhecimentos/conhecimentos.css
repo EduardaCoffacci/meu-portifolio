@@ -1,0 +1,87 @@
+#conhecimentos {
+  display: flex;
+  justify-content: center;
+  padding: 200px 10px;
+}
+
+.conhecimentos .titulo {
+  text-align: center;
+}
+
+.conhecimentos-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.conhecimentos .card {
+  width: 380px;
+  margin: 20px;
+  background-color: var(--bg-second);
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.conhecimentos .card:after {
+  content: ".";
+  position: relative;
+  display: inline-block;
+  background-color: var(--html-color);
+  color: var(--html-color);
+  border-radius: 0px 0px 5px 5px;
+  width: 100%;
+}
+
+.conhecimentos .card:nth-child(2)::after {
+  background-color: var(--css-color);
+}
+
+.conhecimentos .card:nth-child(3)::after {
+  background-color: var(--js-color);
+}
+
+.conhecimentos .card:nth-child(4)::after {
+  background-color: var(--typescript-color);
+}
+
+.conhecimentos .card:nth-child(5)::after {
+  background-color: var(--react-color);
+}
+
+.conhecimentos .card:hover {
+  transform: scale(1.1);
+}
+
+.card-area {
+  height: 100%;
+  padding: 30px;
+}
+
+.conhecimentos .card h2 {
+  margin: 30px 0px;
+  font-size: 2.4rem;
+}
+
+.conhecimentos .card p {
+  font-size: 1.8rem;
+  line-height: 25px;
+}
+
+.conhecimentos .card.desativado {
+  width: 380px;
+  margin: 20px;
+  background-color: var(--bg-primary);
+}
+.conhecimentos .card.desativado:after {
+  content: ".";
+  position: relative;
+  display: inline-block;
+  background-color: var(--bg-primary);
+  color: var(--bg-primary);
+  border-radius: 0px 0px 5px 5px;
+  width: 100%;
+}
+
+/* Section Projetos */
+

@@ -1,0 +1,31 @@
+:root {
+  --bg-primary: #151515;
+  --bg-second: rgba(24, 24, 24, 70);
+  --primary: linear-gradient(#c244d3, #f432aa);
+  --second: #fff;
+  --terciary: #e432f4;
+  --html-color: #ff6d00;
+  --css-color: #039be5;
+  --js-color: #ffd600;
+  --react-color: #40c4ff;
+  --typescript-color: #007acc;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  overflow-x: hidden;
+  background-color: var(--bg-primary);
+  color: var(--second);
+  overflow-x: hidden;
+}

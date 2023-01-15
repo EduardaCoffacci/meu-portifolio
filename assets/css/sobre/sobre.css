@@ -1,0 +1,61 @@
+
+#sobre-mim {
+  width: 100vw;
+  background: var(--bg-second);
+  padding: 200px 10px;
+}
+
+.sobre-mim {
+  display: flex;
+  flex: 1;
+}
+
+.sobre-mim-esquerda {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.sobre-mim-esquerda img {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  border-radius: 30px;
+}
+
+.sobre-mim-direita {
+  flex: 1;
+}
+
+.titulo p:first-child {
+  font-size: 2rem;
+  color: var(--terciary);
+}
+
+.titulo p:first-child:after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 5px;
+  background: var(--terciary);
+  margin: 4px 10px;
+}
+
+.sobre-mim-direita p {
+  font-size: 2rem;
+  max-width: 500px;
+  line-height: 30px;
+}
+
+.titulo h1 {
+  font-size: 4.5rem;
+  margin: 20px 0px;
+}
+
+.sobre-mim-direita a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--second);
+  margin-top: 30px;
+  font-size: 2rem;
+}
