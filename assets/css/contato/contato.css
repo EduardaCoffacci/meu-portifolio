@@ -1,3 +1,4 @@
+
 #contato {
   display: flex;
   align-items: center;
@@ -9,6 +10,7 @@
   margin: auto;
   margin-top: 50px;
   border-radius: 20px;
+  margin-bottom: 50px;
 }
 
 section h2 {
@@ -63,13 +65,4 @@ form button:hover {
   background: #f5f5f5;
   color: #101026;
   border-radius: 16px;
-}
-@media screen and (max-width: 544px) {
-  #contato {
-    width: 95%;
-  }
-  form,
-  input {
-    width: 100%;
-  }
 }

@@ -8,6 +8,7 @@
 @import "./footer/footer.css";
 @import "./global/global.css";
 @import "./pagina-obg/obg.css";
+@import "./responsivo/responsivo.css";
 
 
 /* Home */
@@ -81,12 +82,6 @@
 
 .buttom:hover {
   transform: scale(110%);
-}
-
-.banner-direita {
-  flex: 1;
-  display: flex;
-  justify-content: end;
 }
 
 .icone-rolagem {
