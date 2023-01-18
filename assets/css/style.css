@@ -108,39 +108,7 @@
   }
 }
 
-/*pagina obrigado*/
 
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #101026;
-  flex-direction: column;
-}
-.text {
-  font-size: 45px;
-  color: #f5f5f5;
-  margin-bottom: 30px;
-}
-.paragrafo {
-  color: #f5f5f5;
-  margin-bottom: 30px;
-  font-size: 30px;
-}
-.btn {
-  padding: 15px 15px;
-  background: #f5f5f5;
-  text-decoration: none;
-  color: #101026;
-  transition: all 0.5s;
-  font-size: 18px;
-  font-weight: 600;
-  transition: all 0.5s;
-}
-.btn:hover {
-  border-radius: 16px;
-}
 
 
 
