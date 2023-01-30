@@ -1,15 +1,11 @@
-
 @import "./header/header.css";
-@import "./home/home.css";
 @import "./sobre/sobre.css";
 @import "./conhecimentos/conhecimentos.css";
 @import "./projetos/projetos.css";
 @import "./contato/contato.css";
 @import "./footer/footer.css";
 @import "./global/global.css";
-@import "./pagina-obg/obg.css";
 @import "./responsivo/responsivo.css";
-
 
 /* Home */
 #foto {
@@ -107,14 +103,3 @@
     transform: rotate(0deg);
   }
 }
-
-
-
-
-
-
-
-
-
-
-

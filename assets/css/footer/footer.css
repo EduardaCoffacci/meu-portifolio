@@ -29,3 +29,9 @@
   padding-top: 20px;
 }
 
+@media (max-width:320px){
+  footer .texto{
+   font-size: 1px;
+  }
+}
+
