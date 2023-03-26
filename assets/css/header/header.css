@@ -4,7 +4,9 @@ header {
   padding-top: 20px;
   padding-left: 30px;
 }
-
+header h3{
+  font-size:20px
+}
 .container {
   max-width: 1600px;
   margin: auto;
@@ -12,6 +14,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+span{
+  color:var(--terciary)
+}
+.menu a.active{
+  color:var(--terciary)
 }
 
 .menu ul {
@@ -36,7 +44,7 @@ header {
 
 .menu-buttom {
   align-items: center;
-  background: var(--primary);
+  background: var(--terciary);
   padding: 10px 30px;
   border-radius: 10px;
   transition: transform 0.2s ease-in-out 0s;

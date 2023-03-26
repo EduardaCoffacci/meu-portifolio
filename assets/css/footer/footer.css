@@ -1,42 +1,22 @@
-.whatsapp-link {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 80px;
-  right: 130px;
-}
 
-.whatsap img {
-  width: 60px;
-  height: 60px;
-}
+.end{
+  padding:20px 20%;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: rgb(24, 24, 24);
 
-footer .texto {
-  width: 100vw;
-  padding: 0px 150px;
-  height: 20vw;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-footer .texto h1 {
-  font-size: 30px;
-  border-top: 1px solid #fff;
-  padding-top: 80px;
+.last-text{
+  font-size: 14px;
 }
-
-.texto p {
+.top i{
+  padding: 10px;
+  border-radius: 8px;
   font-size: 15px;
-  padding-top: 20px;
+  color: #fff;
+  background-color: var(--terciary);
 }
 
-@media (max-width: 425px) {
-  footer .texto {
-    padding: 0px 50px;
-  }
-  footer .texto h1{
-    text-align: center;
-  }
-  footer .texto p{
-    text-align: center;
-  }
-  
-}

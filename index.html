@@ -11,6 +11,8 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="shortcut icon" href="./assets/images/menina (1).png" />
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <script
       src="https://kit.fontawesome.com/ef2c46f17f.js"
       crossorigin="anonymous"
@@ -33,7 +35,7 @@
     <header id="header">
       <div class="container">
         <div class="logo">
-          <img src="./assets/images/menina (1).png" alt="">
+            <h3>MariaD<span>e</span>v.</h3>
         </div>
         <div class="menu">
           <nav>
@@ -43,7 +45,7 @@
               <div class="mm_line"></div>
             </div>
             <ul>
-              <li><a href="#header">Home</a></li>
+              <li><a href="#header" class="active">Home</a></li>
               <li><a href="#sobre-mim">Sobre</a></li>
               <li><a href="#conhecimentos">Conhecimentos</a></li>
               <li><a href="#projetos">Projetos</a></li>
@@ -70,11 +72,14 @@
             <div class="container">
                 <div class="banner">
                     <div class="banner-esquerda">
-                        <p>Olá Mundo! <span> 😊 </span> Meu nome é Maria Eduarda</p>
-                        <h1>Maria Eduarda Coffacci</h1>
+                        <p>Seja bem-vindo(a) ao meu Portfólio, Sou a</p>
+                        <h1>Maria Eduarda</h1>
                         <h2>Desenvolvedora</h2>
-                        <p>Programadora web com foco no mundo Front-End!</p>
+                        <p>Programadora web apaixonada pela tecnologia &#128156;</p>
                         <a href="#sobre-mim" class="buttom">Saiba mais</a>
+                    </div>
+                    <div class="banner-direita">
+                        <img src="./assets/images/laptop.gif" alt="">
                     </div>
                 </div>
             </div>
@@ -93,7 +98,7 @@
                             <p>Quem sou eu</p>
                             <h1>Sobre mim</h1>
                         </div>
-                        <p> Olá meu nome é Maria Eduarda, tenho 28 anos, formada recentemente em Análise e Desenvolvimentode Sistemas pela Unopar. Conheci a área daprogramação a 2 anos atrás e me apaixonei pelo mundo da tecnologia, atualmente estou me dedicando para trabalhar com o desenvolvimento Web Frontend tenho conhecimento em HTML, CSS, JavaScript, Git/Github e começando os estudos com React e Typescript, estou sempre em constante aprendizado e em busca por novos desafios. Sinta-se livre para me acompanhar e entrar em contato comigo! 🚀</p>
+                        <p> Olá meu nome é Maria Eduarda, tenho 28 anos, formada em Análise e Desenvolvimentode Sistemas pela Unopar. Apaixonada pelo mundo da tecnologia e pelo desenvolvimento, atualmente estou me dedicando para trabalhar com o desenvolvimento Web Frontend tenho conhecimento em HTML, CSS, JavaScript, Git/Github, React JS e Typescript, estou sempre em constante aprendizado e em busca por novos desafios. Sinta-se livre para me acompanhar e entrar em contato comigo! 🚀</p>
                         <a download  href="./assets/curriculum/maria-eduarda-cv.pdf" target="_blank" class="buttom">Download CV</a></li>
                     </div> 
                 </div>
@@ -191,11 +196,34 @@
                                 </div>
                             </div> 
                         </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/bikcraft.PNG" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Awax</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                        <div class="projeto-card-desc-categoria js">JS</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p></p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/EduardaCoffacci/bikcraft" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://eduardacoffacci.github.io/bikcraft/" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div> 
                     </div>
                 </div>
         </section> 
         <section id="contato" class="container">
-            <h2>Contato</h2>
+            <div class="titulo">
+                <p>Entre em contato</p>
+                <h2>Contato</h2>
+            </div>
             <form action="https://formsubmit.co/dudinha.coffacci@hotmail.com" method="post">
                 <label>Nome</label>
                 <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
@@ -208,17 +236,13 @@
             </form>
         </section>
     </main>
-    <footer id="footer">
-             <div class="texto">
-                <h1 class="titulo">MariaEduarda</h1>
-                <p>©2023 por Maria Eduarda Coffacci</p>
-            </div>
-            <div class="whatsap">
-                <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5547984185774" target="_blank" >
-                     <img id="whatsapp" src="./assets/images/whatsapp.png" alt="">  
-                </a>        
-            </div>             
-    </footer>
-   
+     <section class="end">
+        <div class="last-text">
+            <p>Copyright ©2023 by Maria Eduarda </p>
+        </div>
+        <div class="top">
+            <a href="#header"><i class='bx bxs-chevrons-up'></i></a>
+        </div>
+    </section>  
   </body>
 </html>

@@ -91,3 +91,7 @@
   background-color: rgba(3, 155, 229, 0.25);
 }
 
+.projeto-card-desc-categoria.js {
+  border: 2px solid var( --js-color);
+  background-color: rgba(234, 212, 28, 0.25);
+}

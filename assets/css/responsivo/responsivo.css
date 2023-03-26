@@ -141,20 +141,6 @@
 
 }
 
-@media screen and (max-width: 568px) {
-  .whatsapp-link {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 70px;
-    right: 80px;
-  }
-  #whatsapp {
-    width: 40px;
-    height: 40px;
-  }
-}
-
 @media screen and (max-width: 544px) {
   #contato {
     width: 95%;
@@ -163,4 +149,6 @@
   input {
     width: 100%;
   }
+ 
 }
+

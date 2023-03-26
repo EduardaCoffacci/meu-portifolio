@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Merriweather&display=swap');
+
 @import "./header/header.css";
 @import "./sobre/sobre.css";
 @import "./conhecimentos/conhecimentos.css";
@@ -15,12 +17,7 @@
 
 #banner {
   width: 100vw;
-  height: calc(100vh - 140px);
-  background-image: url(../images/banner.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  height: 100vh}
 
 .banner {
   display: flex;
