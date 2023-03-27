@@ -17,19 +17,7 @@
       src="https://kit.fontawesome.com/ef2c46f17f.js"
       crossorigin="anonymous"
     ></script>
-    <title>Maria Eduarda Portifolio</title>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.querySelector(".menu_mobile").addEventListener("click", function(){
-                if(document.querySelector(".menu nav ul").style.display == "flex") {
-                    document.querySelector(".menu nav ul").style.display = "none";
-                } else {
-                    document.querySelector(".menu nav ul").style.display = "flex";
-                }
-            });
-        };
-    </script>
-
+    <title>Maria Eduarda Portfólio</title>
   </head>
   <body>
     <header id="header">
@@ -74,8 +62,8 @@
                     <div class="banner-esquerda">
                         <p>Seja bem-vindo(a) ao meu Portfólio, Sou a</p>
                         <h1>Maria Eduarda</h1>
-                        <h2>Desenvolvedora</h2>
-                        <p>Programadora web apaixonada por tecnologia &#128156;</p>
+                        <h2 class="line">Desenvolvedora</h2>
+                        <p class="line">Programadora web apaixonada por tecnologia &#128156;</p>
                         <a href="#sobre-mim" class="buttom">Saiba mais</a>
                     </div>
                     <div class="banner-direita">
@@ -90,10 +78,10 @@
         <section id="sobre-mim">
             <div class="container">
                 <div class="sobre-mim">
-                    <div class="sobre-mim-esquerda">
+                    <div class="sobre-mim-esquerda" data-anime="left">
                         <img id="foto" src="./assets/images/foto-sobre.png">
                     </div>
-                    <div class="sobre-mim-direita">
+                    <div class="sobre-mim-direita" data-anime="right">
                         <div class="titulo">
                             <p>Quem sou eu</p>
                             <h1>Sobre mim</h1>
@@ -112,35 +100,35 @@
                         <h1>Conhecimentos</h1>
                     </div>
                     <div class="conhecimentos-cards">
-                        <div class="card">
+                        <div class="card"  data-anime="left">
                             <div class="card-area">
                                 <img src="assets/images/html_icon.png">
                             <h2>HTML</h2>
                             <p>HTMl é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
                             </div>            
                         </div>
-                        <div class="card">
+                        <div class="card"  data-anime="right">
                             <div class="card-area">
                                 <img src="assets/images/css_icon.png">
                             <h2>CSS</h2>
                             <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem de marcação HTML.</p>
                             </div>   
                         </div>
-                        <div class="card">
+                        <div class="card"  data-anime="left">
                             <div class="card-area">
                                 <img src="assets/images/js_icon.png">
                             <h2>Javascript</h2>
                             <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
                             </div>   
                         </div>
-                        <div class="card">
+                        <div class="card" data-anime="right">
                             <div class="card-area">
                                 <img src="assets/images/typescript_icon.png">
                             <h2>Typescript</h2>
                             <p>TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
                             </div>   
                         </div>  
-                        <div class="card">
+                        <div class="card" data-anime="left">
                             <div class="card-area">
                                 <img src="assets/images/react_icon.png">
                             <h2>React.js</h2>
@@ -158,7 +146,7 @@
                         <p>Meus projetos</p>
                         <h1>Projetos</h1>
                     </div> 
-                    <div class="projetos-card">
+                    <div class="projetos-card" data-anime="left">
                             <img src="./assets/images/awax1.PNG" alt="">
                             <div class="projeto-card-desc">
                                 <div class="projeto-card-desc-esquerda">
@@ -177,7 +165,7 @@
                                 </div>
                             </div> 
                         </div> 
-                        <div class="projetos-card">
+                        <div class="projetos-card" data-anime="left">
                             <img src="./assets/images/starbacks.PNG" alt="">
                             <div class="projeto-card-desc">
                                 <div class="projeto-card-desc-esquerda">
@@ -196,7 +184,7 @@
                                 </div>
                             </div> 
                         </div>
-                        <div class="projetos-card">
+                        <div class="projetos-card" data-anime="left">
                             <img src="./assets/images/bikcraft.PNG" alt="">
                             <div class="projeto-card-desc">
                                 <div class="projeto-card-desc-esquerda">
@@ -208,7 +196,7 @@
                                     </div>
                                 </div>
                                 <div class="projeto-card-desc-direita">
-                                    <p></p>
+                                    <p>Site de Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com Bikcraft. </p>
                                     <div class="projeto-card-desc-direita-icons">
                                         <a href="https://github.com/EduardaCoffacci/bikcraft" target="_blank"><i class="fab fa-github"></i></a>
                                         <a href="https://eduardacoffacci.github.io/bikcraft/" target="_blank"><i class="fas fa-link"></i></a>
@@ -219,7 +207,7 @@
                     </div>
                 </div>
         </section> 
-        <section id="contato" class="container">
+        <section id="contato" class="container" data-anime="left">
             <div class="titulo">
                 <p>Entre em contato</p>
                 <h2>Contato</h2>
@@ -244,5 +232,6 @@
             <a href="#header"><i class='bx bxs-chevrons-up'></i></a>
         </div>
     </section>  
+    <script src="script.js"></script>
   </body>
 </html>
