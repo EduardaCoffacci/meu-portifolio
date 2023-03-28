@@ -8,9 +8,9 @@
 ## 💻 Sobre
 
 
-Projeto feito no intuito de me apresentar, como desenvolvedora web front-end.
+Projeto desenvolvido para me apresentar e compartilhar meus projetos conhecimentos como desenvolvedora web Front-end.
 
-## 🤯 O site é composto por:
+## 🤯 O Projeto é composto por:
 
 - **Home:** Minha apresentação;
 - **Sobre mim:** Falo um pouco sobre minha trajetória e meu estado atual;
