@@ -45,7 +45,7 @@ Neste projeto apliquei os seguintes pontos:
       <img src="https://github.com/EduardaCoffacci.png" width="100px" />
     </td>
     <td>
-      Feito por <a href="https://github.com/EduardaCoffacci">Maria Eduarda.</a>
+      Criado por <a href="https://github.com/EduardaCoffacci">Maria Eduarda.</a>
     </td>
   </tr>
 </table>
