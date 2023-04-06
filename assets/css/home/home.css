@@ -1,12 +1,9 @@
 /* Home */
-#foto {
-    width: 300px;
-    height: 400px;
-  }
   
   #banner {
     width: 100vw;
-    height: 100vh}
+    height: 100vh;
+  }
   
   .banner {
     display: flex;
@@ -21,7 +18,7 @@
   .banner-esquerda {
     flex: 1;
   }
-  
+
   .banner-esquerda h1 {
     font-size: 7.5rem;
     margin: 10px 0px;
